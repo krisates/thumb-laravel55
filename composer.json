@@ -1,0 +1,37 @@
+{
+    "name": "giovdi/laravel5-thumb",
+    "description": "PHPThumb Package for Laravel 5 (Personal version)",
+    "keywords": ["L5", "Laravel 5", "Laravel", "PHPThumb", "image", "thumb", "Thumbnail"],
+    "homepage": "http://github.com/mewebstudio/Thumb",
+    "license": "MIT",
+    "version": "0.1.1",
+    "authors": [
+        {
+            "name": "Muharrem ERIN",
+            "email": "me@mewebstudio.com"
+        },
+        {
+            "name": "Giovdi",
+            "email": "francesco@pixelstyle.it"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mews\\Thumb": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mews\\Thumb\\ThumbServiceProvider"
+            ],
+            "aliases": {
+                "Thumb": "Mews\\Thumb\\Facades\\Thumb"
+            }
+        }
+    }
+}
