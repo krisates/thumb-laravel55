@@ -1,6 +1,6 @@
 {
     "name": "krisates/thumb-laravel55",
-    "description": "PHPThumb Package for Laravel 5.5 (Personal version) - Giovdi fixed",
+    "description": "PHPThumb Package for Laravel 5.5 (Personal version) - Giovdi/laravel5-thumb fixed",
     "keywords": ["L5", "Laravel 5", "Laravel", "PHPThumb", "image", "thumb", "Thumbnail"],
     "homepage": "http://github.com/mewebstudio/Thumb",
     "license": "MIT",
